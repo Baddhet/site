@@ -1,0 +1,56 @@
+
+.main {
+  padding: 10px 0;
+  background: url(src/img/backgrond.png) 100% no-repeat;
+  background-size: cover;
+}
+
+.main__inner {
+}
+
+.main__qwe {
+  display: flex;
+}
+
+.main__qwe img {
+  box-shadow: 0 0 10px gray;
+  margin: 0 10px;
+  width: 50%;
+}
+
+.main__qwe div {
+  padding: 0 10px;
+  width: 50%;
+  left: 0;
+}
+
+.brand {
+  box-shadow: 0 0 10px gray;
+}
+
+.brand__inner {
+  position: relative;
+}
+
+.brand__title {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  font-family: Lobster;
+  font-size: 25px;
+  margin: 0;
+  color: gray;
+}
+
+.brand__brands {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 110px;
+  padding: 0 10px;
+  background-color: transparent;
+}
+
+.brand__brands img {
+  width: 100px;
+}

@@ -1,0 +1,19 @@
+.header {
+  background-color: lightblue;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+  }
+
+  &__name {
+    margin: 0;
+  }
+
+  &__tel {
+    text-decoration: none;
+    color: gray;
+  }
+}

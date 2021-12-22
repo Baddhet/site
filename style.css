@@ -6,10 +6,6 @@ body {
   min-width: 500px;
 }
 
-.not-sroll {
-  overflow: hidden;
-}
-
 .container {
   margin: 0 auto;
   max-width: 70vw;
@@ -33,31 +29,6 @@ body {
 .header__tel {
   text-decoration: none;
   color: gray;
-}
-
-.main {
-  padding: 10px 0;
-  background: url(src/img/backgrond.png) 100% no-repeat;
-  background-size: cover;
-}
-
-.main__inner {
-}
-
-.main__qwe {
-  display: flex;
-}
-
-.main__qwe img {
-  box-shadow: 0 0 10px gray;
-  margin: 0 10px;
-  width: 50%;
-}
-
-.main__qwe div {
-  padding: 0 10px;
-  width: 50%;
-  left: 0;
 }
 
 .popup {
@@ -84,6 +55,16 @@ body {
 
 .visible {
   display: block;
+}
+
+.not-sroll {
+  overflow: hidden;
+}
+
+.main {
+  padding: 10px 0;
+  background: url(src/img/backgrond.png) 100% no-repeat;
+  background-size: cover;
 }
 
 .brand {
