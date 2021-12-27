@@ -1,4 +1,4 @@
-const priceButton = document.querySelector('.price');
+const priceButton = document.querySelector('.header__price');
 const popup = document.querySelector('.popup');
 const shadow = document.querySelector('.shadow');
 

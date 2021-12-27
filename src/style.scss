@@ -11,6 +11,13 @@ body {
   max-width: 70vw;
 }
 
+@media screen and (max-width: 700px) {
+  .container {
+    max-width: 100vw;
+    min-width: 600px;
+  }
+}
+
 @import "header";
 @import "popup";
 @import "main";

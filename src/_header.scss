@@ -16,4 +16,10 @@
     text-decoration: none;
     color: gray;
   }
+  &__price {
+    font-size: inherit;
+    background-color: inherit;
+    cursor: pointer;
+    border: none;
+  }
 }
